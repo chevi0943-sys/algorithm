@@ -84,16 +84,44 @@ class B
     }
 }*/
 #endregion
-
-
-#region 5
-/*static int func5(int N,int T,int S)
+#region 3
+/*int ex3(LinkedList<int> list)
 {
-    return Math.Max(N - S, N - T) + 1;
-}*/
-#endregion
+    if (list == null || list.Count == 0) return 0;
 
-static int fun4(int[] arr, int x)
+    int[] arr = new int[list.Count];
+    list.CopyTo(arr, 0);
+    List<int> tails = new List<int>();
+
+    for (int i = 0; i < arr.Length; i++)
+    {
+        int pos = BinarySearch(tails, arr[i]);
+        if (pos == tails.Count)
+            tails.Add(arr[i]);
+        else
+            tails[pos] = arr[i];
+    }
+
+    return arr.Length - tails.Count;
+}
+
+int BinarySearch(List<int> tails, int x)
+{
+    int low = 0, high = tails.Count;
+    while (low < high)
+    {
+        int mid = low + (high - low) / 2;
+        if (tails[mid] <= x)
+            low = mid + 1;
+        else
+            high = mid;
+    }
+    return low;
+}
+*/
+#endregion
+#region 4
+/*static int fun4(int[] arr, int x)
 {
     if (arr.Length == 0)
         return 0;
@@ -114,7 +142,7 @@ static int fun4(int[] arr, int x)
         if (sum == x)
         {
             res++;
-           
+            sum-=arr[start];
             start++;
             end = i;
         }
@@ -126,4 +154,16 @@ static int fun4(int[] arr, int x)
 }
 
 int[] arr = [3, 7, 2, 1, 3, 1, 1,0, 2, 2, 5, 1, 1, 1, 1, 1, 1];
-Console.WriteLine(fun4(arr, 5));
+Console.WriteLine(fun4(arr, 5));*/
+#endregion
+#region 5
+/*static int func5(int N,int T,int S)
+{
+    return Math.Max(N - S, N - T) + 1;
+}*/
+#endregion
+
+
+
+
+

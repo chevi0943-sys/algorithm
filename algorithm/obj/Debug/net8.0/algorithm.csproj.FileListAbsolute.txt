@@ -1,0 +1,14 @@
+C:\Users\user1\Desktop\algorithm\algorithm\bin\Debug\net8.0\algorithm.exe
+C:\Users\user1\Desktop\algorithm\algorithm\bin\Debug\net8.0\algorithm.deps.json
+C:\Users\user1\Desktop\algorithm\algorithm\bin\Debug\net8.0\algorithm.runtimeconfig.json
+C:\Users\user1\Desktop\algorithm\algorithm\bin\Debug\net8.0\algorithm.dll
+C:\Users\user1\Desktop\algorithm\algorithm\bin\Debug\net8.0\algorithm.pdb
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.AssemblyInfoInputs.cache
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.AssemblyInfo.cs
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.csproj.CoreCompileInputs.cache
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.dll
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\refint\algorithm.dll
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.pdb
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\algorithm.genruntimeconfig.cache
+C:\Users\user1\Desktop\algorithm\algorithm\obj\Debug\net8.0\ref\algorithm.dll

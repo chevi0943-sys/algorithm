@@ -125,5 +125,5 @@ static int fun4(int[] arr, int x)
     return res;
 }
 
-int[] arr = [3, 7, 2, 1, 3, 1, 1, 2, 2, 5, 1, 1, 1, 1, 1, 1];
+int[] arr = [3, 7, 2, 1, 3, 1, 1,0, 2, 2, 5, 1, 1, 1, 1, 1, 1];
 Console.WriteLine(fun4(arr, 5));
